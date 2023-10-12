@@ -1,0 +1,108 @@
+.hero {
+    background-image: url('../images/javier-santos-guzman-9MR78HGoflw-unsplash.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    button {
+      background-color: $secondary-color;
+      color: white;
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  
+  .about, .services {
+    // background-color: $background-color;
+    padding: 4rem 0;
+    text-align: center;
+  
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .about {
+        background-color: white;
+        padding: 4rem 0;
+        text-align: center;
+      
+        h2 {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+          color: $primary-color;
+        }
+      
+        p {
+          font-size: 1.2rem;
+          color: #555;
+          max-width: 800px;
+          margin: 0 auto 2rem;
+        }
+      
+        .team-members {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          margin-top: 2rem;
+        }
+      
+        .team-member {
+          margin: 1rem;
+          max-width: 300px;
+          text-align: left;
+      
+          img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+          }
+      
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+          }
+      
+          p {
+            font-size: 1rem;
+            color: #555;
+          }
+        }
+      }
+  }
+  

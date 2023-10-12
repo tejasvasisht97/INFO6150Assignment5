@@ -1,0 +1,267 @@
+header {
+  background-color: #232D3F;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+header .navigation {
+  margin-top: 1rem;
+}
+header .navigation a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #232D3F;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+  height: 80%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 1rem;
+  text-align: left;
+}
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-section ul a {
+  color: white;
+  text-decoration: none;
+}
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-section form input, .footer-section form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer-section form button {
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 0.5rem;
+}
+
+.classes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 2rem;
+}
+
+.class-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.class-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.class-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 2rem;
+}
+.contact .contact-info {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.contact .contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-info p {
+  font-size: 1rem;
+  color: #555;
+}
+.contact .contact-form {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.contact .contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-form form {
+  display: grid;
+  grid-gap: 10px;
+}
+.contact .contact-form form input, .contact .contact-form form textarea, .contact .contact-form form button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact .contact-form form button {
+  background-color: #232D3F;
+  color: white;
+  cursor: pointer;
+}
+.contact .contact-form form img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.map {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 2em auto;
+  display: block;
+}
+
+.hero {
+  background-image: url("../images/javier-santos-guzman-9MR78HGoflw-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero button {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about, .services {
+  padding: 4rem 0;
+  text-align: center;
+}
+.about h2, .services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.about p, .services p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+.about ul, .services ul {
+  list-style: none;
+  padding: 0;
+}
+.about ul li, .services ul li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.about .about, .services .about {
+  background-color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+.about .about h2, .services .about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #232D3F;
+}
+.about .about p, .services .about p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+.about .about .team-members, .services .about .team-members {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.about .about .team-member, .services .about .team-member {
+  margin: 1rem;
+  max-width: 300px;
+  text-align: left;
+}
+.about .about .team-member img, .services .about .team-member img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.about .about .team-member h3, .services .about .team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.about .about .team-member p, .services .about .team-member p {
+  font-size: 1rem;
+  color: #555;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}/*# sourceMappingURL=main.css.map */
